@@ -1,0 +1,75 @@
+.jumbotron {
+    background-color: rgba(11, 36, 97, 0.9);
+    border-bottom: 2px solid rgba(11, 36, 97, 1);
+}
+
+
+.display-4 {
+    text-align: center;
+    color:whitesmoke;
+    padding: 50px 10px 0px 10px;
+}
+
+#card-container {
+    margin-top: 20px;
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    margin: 0 10px 30px 10px; 
+    border-radius: 30px;
+    min-width: 250px;
+    background-color: rgba(245, 245, 245, 0.904);
+}
+
+.card-header {
+    border-radius: 30px 30px 0 0;
+    background-color: rgba(94, 29, 29, 0.95);
+}
+
+.card-header:first-child {
+    border-radius: 30px 30px 0 0;
+}
+
+.employee-name{
+    color: whitesmoke;
+    text-align: left;
+}
+
+.employee-role {
+    color: whitesmoke;
+    text-align: left;  
+}
+
+.card-info{
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.employee-id {
+    border-radius: 10px 10px 0 0;
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 5px;
+}
+
+.employee-email {
+    flex: 2 1 auto;
+    background-color: whitesmoke;
+    border-right:  1px solid rgba(0, 0, 0, 0.438);
+    border-left: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 5px;
+}
+
+.employee-extra {
+    border-radius: 0 0 10px 10px;
+    flex: 2 1 auto;
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 5px;    
+}
