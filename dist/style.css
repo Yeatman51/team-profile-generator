@@ -2,8 +2,8 @@
     --yello: rgb(229, 233, 32);
     --blue: #0f416b;
     --white: #ffffff;
-    --gray-l: rgb(105, 103, 103);
-    --gray-d: rgb(59, 59, 59);
+    --gray-l: rgb(102, 101, 101);
+    --gray-d: rgb(53, 52, 52);
     --black:rgb(8, 6, 6);
 }
 
@@ -61,11 +61,12 @@ body {
 .card-info{
     padding: 10px;
     border-radius: 0 0 30px 30px;
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color:var(--yello);
 }
 
 .employee-id {
     border-radius: 10px 10px 0 0;
+    color: var(--white);
     background-color: var(--gray-l);
     border: 1px solid rgba(0, 0, 0, 0.438);
     padding: 5px;
@@ -73,6 +74,7 @@ body {
 
 .employee-email {
     flex: 2 1 auto;
+    color: var(--white);
     background-color: var(--gray-l);
     border-right:  1px solid rgba(0, 0, 0, 0.438);
     border-left: 1px solid rgba(0, 0, 0, 0.438);
@@ -82,6 +84,7 @@ body {
 .employee-extra {
     border-radius: 0 0 10px 10px;
     flex: 2 1 auto;
+    color: var(--white);
     background-color: var(--gray-l);
     border: 1px solid rgba(0, 0, 0, 0.438);
     padding: 5px;    
