@@ -4,7 +4,7 @@ const fs = require('fs');
 const Engineer = require('./lib/Engineer');
 const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
-const Htmlsetup = require('./src/htmsetup');
+const Htmlsetup = require('./src/htmlsetup');
 
 async function main(){
     let html = Htmlsetup.beginHtml()

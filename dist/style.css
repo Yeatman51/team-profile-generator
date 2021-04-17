@@ -1,3 +1,16 @@
+:root {
+    --yello: rgb(229, 233, 32);
+    --blue: #0f416b;
+    --white: #ffffff;
+    --gray-l: rgb(105, 103, 103);
+    --gray-d: rgb(59, 59, 59);
+    --black:rgb(8, 6, 6);
+}
+
+body {
+    background-color: var(--gray-d);
+}
+
 .jumbotron {
     background-color: rgba(11, 36, 97, 0.9);
     border-bottom: 2px solid rgba(11, 36, 97, 1);
@@ -23,12 +36,12 @@
     margin: 0 10px 30px 10px; 
     border-radius: 30px;
     min-width: 250px;
-    background-color: rgba(245, 245, 245, 0.904);
+    background-color: var(--gray-l);
 }
 
 .card-header {
     border-radius: 30px 30px 0 0;
-    background-color: rgba(94, 29, 29, 0.95);
+    background-color: var(--yello);
 }
 
 .card-header:first-child {
@@ -36,13 +49,13 @@
 }
 
 .employee-name{
-    color: whitesmoke;
-    text-align: left;
+    color: var(--black);
+    text-align: center;
 }
 
 .employee-role {
-    color: whitesmoke;
-    text-align: left;  
+    color: var(--black);
+    text-align: center;  
 }
 
 .card-info{
@@ -53,14 +66,14 @@
 
 .employee-id {
     border-radius: 10px 10px 0 0;
-    background-color: whitesmoke;
+    background-color: var(--gray-l);
     border: 1px solid rgba(0, 0, 0, 0.438);
     padding: 5px;
 }
 
 .employee-email {
     flex: 2 1 auto;
-    background-color: whitesmoke;
+    background-color: var(--gray-l);
     border-right:  1px solid rgba(0, 0, 0, 0.438);
     border-left: 1px solid rgba(0, 0, 0, 0.438);
     padding: 5px;
@@ -69,7 +82,7 @@
 .employee-extra {
     border-radius: 0 0 10px 10px;
     flex: 2 1 auto;
-    background-color: whitesmoke;
+    background-color: var(--gray-l);
     border: 1px solid rgba(0, 0, 0, 0.438);
     padding: 5px;    
 }
