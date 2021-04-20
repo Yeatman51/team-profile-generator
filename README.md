@@ -5,7 +5,7 @@ https://github.com/Yeatman51
 https://github.com/Yeatman51/team-profile-generator
 
 Video displaying the terminal functionality available with the link below 
-(After clicking on the link click on the button to view Rafael to see the video)
+(After clicking on the link below click on the button "View raw" to see the video)
 
 https://github.com/Yeatman51/team-profile-generator/blob/main/img/zoom_0.mp4
 
