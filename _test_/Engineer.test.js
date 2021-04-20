@@ -14,7 +14,7 @@ describe("Engineer", () => {
     });
 
     it("should return the Engineer's role", () => {
-        expect(new Engineer("Bruce Wayne",464678,"wayne@cwayneenterprises.com").getRole()).toBe("Employee");
+        expect(new Engineer("Bruce Wayne",464678,"wayne@cwayneenterprises.com").getRole()).toBe("Engineer");
     });
 
     it("should return the Engineer's GitHub", () => {

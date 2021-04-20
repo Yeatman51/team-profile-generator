@@ -1,6 +1,16 @@
 # team-profile-generator
 
 https://github.com/Yeatman51
+
 https://github.com/Yeatman51/team-profile-generator
 
-![command-line-prompt.png](assets/command-line-prompt.png)
+Video displaying the terminal functionality available with the link below
+https://github.com/Yeatman51
+
+This command line application allows the team manager to quickly update a webpage by entering the new team members information into the command line prompts. After all of the props have been answered a HTML page will be generated displaying all of the new information.
+
+![command-line-prompt.png](img/command-line-prompt.png)
+
+The image below shows a series of test that of all past for this application
+
+![command-line-test.png](img/command-line-test.png)
